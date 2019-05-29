@@ -1,0 +1,73 @@
+.container {
+  margin-top: 2em;
+}
+
+.card {
+  margin: 2em 2em 1em 1em;
+  width: 20em;
+  height: 16em;
+  color: white;
+  border: 1px solid rgb(22,22,22);
+  box-shadow: 2px 2px 5px #aaa;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: transform 1500ms;
+}
+
+.btn{
+  border: 1px solid #2f559f;
+  position:absolute;
+  bottom:1em;
+  left: 50%;
+  margin-left: -12.5%;
+}
+
+.btn:hover {
+  background-color: #2f559f;
+  border-color: #2f559f;
+}
+
+#memory {
+  background-image: linear-gradient(rgb(22, 22, 22), rgb(255,255,255, 0)), url("../assets/memory.jpg");
+  background-size: 115%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#morpion {
+  background-image: linear-gradient(rgb(22, 22, 22), rgb(255,255,255, 0)), url("../assets/tic-tac-toe.jpg");
+  background-size: 120%;
+  background-position: center;
+}
+#tetris {
+  background-image: linear-gradient(rgb(22, 22, 22), rgb(255,255,255, 0)), url("../assets/tetris.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+#demineur {
+  background-image: linear-gradient(rgba(22, 22, 22), rgb(255,255,255, 0)), url("../assets/démineur.png");
+  background-size: 100%;
+}
+#sudoku {
+  background-image: linear-gradient(rgba(22, 22, 22), rgb(255,255,255, 0)), url("../assets/sudoku.png");
+  background-size: 100%;
+  background-position: center;
+}
+#solitaire {
+  background-image: linear-gradient(rgba(22, 22, 22), rgba(255, 255, 255, 0)), url("../assets/solitaire.png");
+  background-size: 110%;
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+  color: #2f559f;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #eeee;
+  font-weight: 600;
+}

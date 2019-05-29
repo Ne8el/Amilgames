@@ -1,0 +1,31 @@
+.game h1 {
+  text-align: center;
+  color: #2f559f;
+  font-weight: bold;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.status {
+  margin: 1em;
+  font-weight: bold;
+  color: #444;
+}
+
+.board {
+  width: 15em;
+  height: 15em;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.square {
+  width: 5em;
+  height: 5em;
+}

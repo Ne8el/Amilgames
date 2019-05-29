@@ -1,0 +1,34 @@
+/*
+ * Header
+ */
+ .header{
+  background-color: #2f559f;
+  padding-bottom: 0.3em;
+  padding-left: 2em;
+}
+
+.fa-gamepad {
+  margin: .4em 0 0 0;
+  font-size: 1em;
+}
+
+.header h3 {
+  color: #eee;
+}
+
+/*
+ * Footer
+ */
+
+.footer {
+  height: 2em;
+  background-color: #2f559f;
+  color: #eee;
+  font-size: .8em;
+  font-style: italic;
+  text-align: center;
+  padding-top: .25em;
+
+}
+
+
